@@ -10,6 +10,7 @@ html, body {
 h1 {
   text-align: center;
   font-weight: bold;
+  font-size: 50px;
 }
 
 h2 {
@@ -51,6 +52,14 @@ nav a:not(:last-child) {
   border-right: 1px #eaeaea solid;
 }
 
+nav a:last-child {
+  border-right: 1px #eaeaea solid;
+}
+
+nav a:first-child {
+  border-left: 1px #eaeaea solid;
+}
+
 section {
   width: 80%;
   margin: 0 auto;
@@ -75,6 +84,40 @@ figure {
   margin: 0 auto;
 }
 
+iframe {
+  min-height: 800px;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(232, 54, 54);
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: x-large;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  padding: 2%;
+  margin-bottom: 4%;
+}
+
+button a:link {
+  color: #fff;
+}
+
+button a {
+  color: #fff;
+}
+
+button a:hover {
+  color: #919191;
+}
+
+button:hover {
+  background-color: rgb(93, 0, 0);
+}
+
 figure img {
   object-fit: contain;
   border-radius: 10px;
@@ -82,12 +125,12 @@ figure img {
 }
 
 a:link {
-  color:rgb(74, 74, 74);
+  color:rgb(110, 18, 18);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(118, 23, 23);
+  color: rgb(232, 54, 54);
 }
 
 figcaption {
